@@ -13,6 +13,12 @@
     background-repeat: no-repeat;
 }
 
+.im {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
 .box {
     padding: 30px 30px;
     width: 479px;
