@@ -15,8 +15,8 @@
 
 .im {
     position: absolute;
-    top: 20px;
-    left: 15px;
+    top: 30px;
+    left: 40px;
 }
 
 .box {
@@ -28,7 +28,7 @@
     top: 83px;
     left: 671px;
     border: 1px solid #A5D9D0;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(2px);
     border-radius: 15px;
 }
 
