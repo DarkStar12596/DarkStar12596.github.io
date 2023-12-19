@@ -1,0 +1,135 @@
+@import "fonts/fonts.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+    transition: all 0.5s;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: HelveticaNeueCyr;
+}
+
+.container {
+    width: 979px;
+    height: 701px;
+    border-radius: 15px;
+    background: #181818;
+    display: flex;
+    overflow: hidden;
+}
+
+.left {
+    width: 452px;
+    height: 100%;
+    background: linear-gradient(180deg, #00000000, #00000000), url("sud.png");
+    text-align: center;
+    padding-top: 265px;
+}
+
+.left h1.title {
+    color: #fff;
+}
+
+.left p.desc {
+    width: 278px;
+    color: #E1BB97;
+    font: 400 15px/normal HelveticaNeueCyp;
+    font-style: normal;
+    margin: 20px auto 30px;
+}
+
+.btn1 {
+    background: transparent;
+    border: 1px solid #E1BB97;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+
+.right {
+    width: calc(979px - 452px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 328px;
+    height: 417px;
+    color: #fff;
+    text-align: center;
+}
+
+.ikon {
+    margin: 30px auto;
+}
+
+.text p {
+    margin: 20px auto;
+}
+
+.ikon img:nth-child(2) {
+    background-image: url("brandico_facebook.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto 10px;
+}
+
+.ikon *:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+input {
+    width: 328px;
+    height: 53px;
+    border-radius: 26.5px;
+    border: 1px solid #E1BB97;
+    background: transparent;
+    color: #fff;
+    padding: 0px 44px;
+    margin: 10px auto;
+    outline: none;
+}
+
+.e {
+    background-image: url("pochta.png");
+    background-repeat: no-repeat;
+    background-position: 19px;
+}
+
+.p {
+    background-image: url("Vector.png");
+    background-repeat: no-repeat;
+    background-position: 19px;
+}
+
+.btn2 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+button {
+    width: 328px;
+    height: 53px;
+    border-radius: 26.5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
