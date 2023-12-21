@@ -27,13 +27,11 @@ body {
     top: 153px;
     left: 801px;
     color: #fff;
-    background: #818F95;
+    box-shadow: inset;
     border: 1px solid #818F95;
-    backdrop-filter: blur(50px);
-}
-
-.box {
+    backdrop-filter: blur(1px);
     padding: 25px;
+    background: linear-gradient(109.46deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100%), linear-gradient(108.87deg, rgba(255, 255, 255, 0.8) 0.66%, rgba(211, 211, 211, 0.1) 99.48%);
 }
 
 h1 {
@@ -116,4 +114,10 @@ input {
     font-weight: 300;
     line-height: 18px;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
 }
