@@ -59,15 +59,14 @@ input {
     width: 425px;
     height: 50px;
     border-radius: 7px;
-    font-family: Algerian;
     border: 1px;
-    opacity: 0.5;
+    opacity: 0.8;
     outline: none;
     padding: 15px;
 }
 
 input::placeholder {
-    width: 158px;
+    width: 175px;
     height: 18px;
     opacity: 0.8;
     font-size: 15px;
