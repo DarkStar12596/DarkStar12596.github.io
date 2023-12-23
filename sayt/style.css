@@ -26,14 +26,14 @@ body {
     position: relative;
     display: inline;
     cursor: pointer;
-    bottom: 60px;
-    right: 470px;
+    bottom: 70px;
+    right: 440px;
     width: 200px;
 }
 
 .box {
-    width: 479px;
-    height: 497px;
+    width: 579px;
+    height: 587px;
     border-radius: 27px;
     position: relative;
     top: 15px;
@@ -47,27 +47,27 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     line-height: 39px;
 }
 
 .wel {
     margin: 10px auto 50px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     line-height: 24px;
 }
 
 label {
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 18px;
 }
 
 input {
-    width: 425px;
-    height: 50px;
+    width: 525px;
+    height: 65px;
     border-radius: 7px;
     border: 1px;
     opacity: 0.8;
@@ -76,10 +76,10 @@ input {
 }
 
 input::placeholder {
-    width: 175px;
-    height: 18px;
+    width: 235px;
+    height: 27px;
     opacity: 0.8;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 18px;
 }
@@ -94,7 +94,7 @@ form {
 }
 
 .for {
-    font-size: 12px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 15px;
     text-align: right;
@@ -106,10 +106,10 @@ form {
 
 button {
     margin: 0 0 10px 0;
-    width: 419px;
-    height: 50px;
+    width: 519px;
+    height: 70px;
     border-radius: 7px;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 18px;
     background-color: #A5D9D0;
@@ -123,10 +123,11 @@ input {
 }
 
 .new {
+    margin: 20px auto;
     font-size: 15px;
     font-weight: 700;
     line-height: 18px;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 18px;
     text-align: center;
