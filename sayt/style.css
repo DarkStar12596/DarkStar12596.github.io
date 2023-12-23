@@ -73,13 +73,14 @@ input {
     opacity: 0.8;
     outline: none;
     padding: 15px;
+    font-size: 23px;
 }
 
 input::placeholder {
     width: 235px;
     height: 27px;
     opacity: 0.8;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 300;
     line-height: 18px;
 }
@@ -94,7 +95,7 @@ form {
 }
 
 .for {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 15px;
     text-align: right;
@@ -109,7 +110,7 @@ button {
     width: 519px;
     height: 70px;
     border-radius: 7px;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     line-height: 18px;
     background-color: #A5D9D0;
